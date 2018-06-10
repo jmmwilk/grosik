@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#aplikacja{
+  display: flex;
+  flex-direction: column;
+  border: red solid 1px;
+ }
+
+#gornaramka{
+  display:flex;
+  height: 120px;
+  min-width: 450px;
+  border: green solid 1px;
+  font-size: 60px;
+  font-family: Arial;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+#firstnumber{
+}
+
+#result{
+  font-size: 60px;
+  height: 80px;
+  width: 120px;
+}
+
+#dolnaramka{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  border: blue solid 1px;
+ }
+
+.groszkiBox{
+  height: 362px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100px;
+  padding: 5px;
+}
+
+
+
+.groszek{
+  height: 25px;
+  width: 25px;
+  border: solid 1px;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  
+}
+
